@@ -16,34 +16,28 @@ from random import randint
 def numeros():
 	# Array com todos os numeros básicos
 	numeros = ['1', '2',  '3', '4', '5', '6', '7', '8', '9',]
-	# Obtém dois números aleatórios
-	randomNumero0 = random.choice(numeros)
-	randomNumero1 = random.choice(numeros)
+	# Obtém números aleatórios
+	randomNumero = random.choice(numeros)
 	# Retorna esses numeros
-	return randomNumero0
-	return randomNumero1
+	return randomNumero
 
 # Classe Letras
 def letras():
 	# Array com letras comuns a vários teclados
 	letras = ['q', 'w', 'e', 'r', 't', 'y', 'u', 'i', 'o', 'p', 'a', 's', 'd', 'f', 'g', 'h', 'j', 'k', 'l', 'z', 'x', 'c', 'v', 'b', 'n', 'm']
-	# Obtém duas letras aletórias
-	randomLetra0 = random.choice(letras)
-	randomLetra1 = random.choice(letras)
+	# Obtém letras aletórias
+	randomLetra = random.choice(letras)
 	# Retorna essas letras
-	return randomLetra0
-	return randomLetra1
+	return randomLetra
 
 # Classe Símbolos
 def simbolos():
 	# Array com vários simbolos presentes no teclado
 	simbolos = ['|', '!', '#', '%', '&', '/', '(', ')', '=', '?', '«', '»', '@', '§', '{', '[', ']', '}', '<', '>', ',', '.', ';', ':', '-', '_', '^', '~', '+', '*', '¨']
-	# Obtém dois simbolos aleatórios
-	randomSimbolo0 = random.choice(simbolos)
-	randomSimbolo1 = random.choice(simbolos)
+	# Obtém simbolos aleatórios
+	randomSimbolo = random.choice(simbolos)
 	# Retorna esses simbolos
-	return randomSimbolo0
-	return randomSimbolo1
+	return randomSimbolo
 
 # Classe Password
 def password(randomSimbolo0, randomLetra0, randomNumero0, randomSimbolo1, randomLetra1, randomNumero1):
